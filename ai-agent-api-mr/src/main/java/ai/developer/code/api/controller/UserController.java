@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class UserController {
 
 
+    // Here a big comment is added to test the comment length
     @GetMapping
     public ResponseEntity<UserResponse> getUserInfo() {
         UserResponse userResponse = new UserResponse("Id", "Name", "Email");
